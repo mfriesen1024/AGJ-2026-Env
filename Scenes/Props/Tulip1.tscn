@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dft0e0do6trl4"]
+
+[ext_resource type="PackedScene" uid="uid://bcycjf0mw04ck" path="res://Assets/Env/Models/Props/Tulip1.glb" id="1_bg6et"]
+
+[node name="Tulip1" unique_id=1003162807 instance=ExtResource("1_bg6et")]
+
+[node name="Blossom" parent="." index="2" unique_id=1309241550]
+layers = 2
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="3" unique_id=1047100832]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5835782, 0)
+light_color = Color(0.38823533, 0.90588254, 0.67843145, 1)
+light_energy = 0.5
+shadow_enabled = true
+shadow_caster_mask = 4294967293
+omni_range = 10.0
