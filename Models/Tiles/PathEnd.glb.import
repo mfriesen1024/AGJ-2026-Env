@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://drjfpjxim2emg"
-path="res://.godot/imported/PathEnd.glb-dd6a0c656fbf3b0b18ec3d2f8875bc2d.scn"
+path="res://.godot/imported/PathEnd.glb-8b68518b94f14931f060a20d7bd0e7fa.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/PathEnd.glb"
-dest_files=["res://.godot/imported/PathEnd.glb-dd6a0c656fbf3b0b18ec3d2f8875bc2d.scn"]
+source_file="res://Assets/Env/Models/Tiles/PathEnd.glb"
+dest_files=["res://.godot/imported/PathEnd.glb-8b68518b94f14931f060a20d7bd0e7fa.scn"]
 
 [params]
 

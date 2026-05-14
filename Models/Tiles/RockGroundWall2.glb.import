@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cbwdwl4rvp0or"
-path="res://.godot/imported/RockGroundWall2.glb-586984d1a5f4cab4d6a84851d2176bc1.scn"
+path="res://.godot/imported/RockGroundWall2.glb-e3a8ca5c4d891135d4ef6049ead94b8b.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/RockGroundWall2.glb"
-dest_files=["res://.godot/imported/RockGroundWall2.glb-586984d1a5f4cab4d6a84851d2176bc1.scn"]
+source_file="res://Assets/Env/Models/Tiles/RockGroundWall2.glb"
+dest_files=["res://.godot/imported/RockGroundWall2.glb-e3a8ca5c4d891135d4ef6049ead94b8b.scn"]
 
 [params]
 

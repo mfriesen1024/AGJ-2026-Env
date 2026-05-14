@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ceyhsamgrl4gm"
-path="res://.godot/imported/PathCorner.glb-24da4a4389d4471eec73178ba411f3cc.scn"
+path="res://.godot/imported/PathCorner.glb-01fc697e8e993aa3ce83858adc31b27f.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/PathCorner.glb"
-dest_files=["res://.godot/imported/PathCorner.glb-24da4a4389d4471eec73178ba411f3cc.scn"]
+source_file="res://Assets/Env/Models/Tiles/PathCorner.glb"
+dest_files=["res://.godot/imported/PathCorner.glb-01fc697e8e993aa3ce83858adc31b27f.scn"]
 
 [params]
 

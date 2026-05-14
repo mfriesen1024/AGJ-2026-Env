@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://4wi0tb2icttg"
-path="res://.godot/imported/RockGround1.glb-f4b0bd3ff4f856cf98ec46fecca57c85.scn"
+path="res://.godot/imported/RockGround1.glb-13d4ab297226a692c69ecbc9621e061e.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/RockGround1.glb"
-dest_files=["res://.godot/imported/RockGround1.glb-f4b0bd3ff4f856cf98ec46fecca57c85.scn"]
+source_file="res://Assets/Env/Models/Tiles/RockGround1.glb"
+dest_files=["res://.godot/imported/RockGround1.glb-13d4ab297226a692c69ecbc9621e061e.scn"]
 
 [params]
 

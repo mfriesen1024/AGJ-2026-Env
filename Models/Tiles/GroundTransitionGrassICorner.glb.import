@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://depyi38je3ofw"
-path="res://.godot/imported/GroundTransitionGrassICorner.glb-a9efbf37137629f1be54b5327c1509fc.scn"
+path="res://.godot/imported/GroundTransitionGrassICorner.glb-ba39ce2b5d4ba4169c8af3fdf01c8066.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/GroundTransitionGrassICorner.glb"
-dest_files=["res://.godot/imported/GroundTransitionGrassICorner.glb-a9efbf37137629f1be54b5327c1509fc.scn"]
+source_file="res://Assets/Env/Models/Tiles/GroundTransitionGrassICorner.glb"
+dest_files=["res://.godot/imported/GroundTransitionGrassICorner.glb-ba39ce2b5d4ba4169c8af3fdf01c8066.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d20ppwyaaxegj"
-path="res://.godot/imported/GroundTransitionGrassStraight.glb-6afc108596ad2a78d401dfa708be86d9.scn"
+path="res://.godot/imported/GroundTransitionGrassStraight.glb-04445e312e3a831a676dab478f73cfd1.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/GroundTransitionGrassStraight.glb"
-dest_files=["res://.godot/imported/GroundTransitionGrassStraight.glb-6afc108596ad2a78d401dfa708be86d9.scn"]
+source_file="res://Assets/Env/Models/Tiles/GroundTransitionGrassStraight.glb"
+dest_files=["res://.godot/imported/GroundTransitionGrassStraight.glb-04445e312e3a831a676dab478f73cfd1.scn"]
 
 [params]
 
