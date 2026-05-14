@@ -1,0 +1,3 @@
+# used to ignore materials that we don't need to export, but we export anyway due to import settings.
+MagicGlow.tres
+Rock.tres
