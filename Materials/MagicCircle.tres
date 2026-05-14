@@ -1,7 +1,16 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://bu6878bu1otqe"]
 
+[ext_resource type="Shader" uid="uid://bw334o0ugck41" path="res://Assets/Env/Shaders/ShaderMagicCircle.tres" id="1_s8qdg"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_k6ql2"]
+render_priority = 0
+shader = ExtResource("1_s8qdg")
+shader_parameter/BaseColour = Color(0.24, 0.645333, 1, 1)
+shader_parameter/Roughness = 0.0
+
 [resource]
 resource_name = "MagicCircle"
+next_pass = SubResource("ShaderMaterial_k6ql2")
 transparency = 2
 alpha_scissor_threshold = 0.5
 alpha_antialiasing_mode = 0
