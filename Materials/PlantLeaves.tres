@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://x5s41x5dr24y"]
+
+[ext_resource type="Texture2D" uid="uid://d0ewnk7rrumja" path="res://Assets/Env/Models/Props/Tulip2_LeavesTex.webp" id="1_b16wi"]
+
+[resource]
+resource_name = "PlantLeaves"
+cull_mode = 2
+albedo_texture = ExtResource("1_b16wi")
+roughness = 0.5

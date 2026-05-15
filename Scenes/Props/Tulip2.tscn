@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://dft0e0do6trl4"]
+[gd_scene format=3 uid="uid://dh62yvbwsavfx"]
 
-[ext_resource type="PackedScene" uid="uid://bcycjf0mw04ck" path="res://Assets/Env/Models/Props/Tulip1.glb" id="1_bg6et"]
-[ext_resource type="Material" uid="uid://bdubwwiryxwlp" path="res://Assets/Env/Materials/Petals1.tres" id="2_v0g3w"]
+[ext_resource type="PackedScene" uid="uid://ootguftmsngc" path="res://Assets/Env/Models/Props/Tulip2.glb" id="1_syyrk"]
+[ext_resource type="Material" uid="uid://bfkwatof351rc" path="res://Assets/Env/Materials/Petals2.tres" id="2_1smhu"]
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_bg6et"]
 emission_shape = 1
@@ -9,14 +9,14 @@ emission_sphere_radius = 1.0
 gravity = Vector3(0, -0.1, 0)
 
 [sub_resource type="BoxMesh" id="BoxMesh_v0g3w"]
-material = ExtResource("2_v0g3w")
+material = ExtResource("2_1smhu")
 size = Vector3(0.01, 0.01, 0.01)
 
-[node name="Tulip1" unique_id=1003162807 instance=ExtResource("1_bg6et")]
+[node name="Tulip2" unique_id=1003162807 instance=ExtResource("1_syyrk")]
 
 [node name="OmniLight3D" type="OmniLight3D" parent="." index="2" unique_id=1047100832]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5835782, 0)
-light_color = Color(0.38823533, 0.90588254, 0.67843145, 1)
+light_color = Color(0.5007111, 0.2233946, 0.9796719, 1)
 light_energy = 0.5
 light_cull_mask = 4294967293
 shadow_enabled = true
@@ -24,7 +24,7 @@ shadow_caster_mask = 4294967293
 omni_range = 10.0
 omni_shadow_mode = 0
 
-[node name="Petals" parent="." index="3" unique_id=97128664]
+[node name="Petals" parent="." index="3" unique_id=217838516]
 layers = 2
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Petals" index="0" unique_id=791430408]
