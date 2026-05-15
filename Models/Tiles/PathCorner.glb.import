@@ -34,14 +34,46 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-materials/extract=0
+materials/extract=1
 materials/extract_format=0
-materials/extract_path=""
+materials/extract_path="res://Assets/Env/Materials/"
 _subresources={
+"materials": {
+"Grass": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Env/Materials/Grass.tres",
+"use_external/path": "uid://bejuuhbibvgfo"
+},
+"PathCorner": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Env/Materials/PathCorner.tres",
+"use_external/path": "uid://d3i7ihbc1tjpq"
+}
+},
+"meshes": {
+"PathCorner_PathCorner": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"PathCorner_PathCornerGrass": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+}
+},
 "nodes": {
 "PATH:PathCorner": {
 "generate/physics": true,
-"physics/shape_type": 3
+"physics/shape_type": 2
 }
 }
 }

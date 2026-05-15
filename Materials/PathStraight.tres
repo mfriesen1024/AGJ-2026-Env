@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c2lv8swor244u"]
+
+[ext_resource type="Texture2D" uid="uid://cnyhmjej4v5xj" path="res://Assets/Env/Models/Tiles/PathStraight_PathStraightMask.webp" id="1_a4f0e"]
+
+[resource]
+resource_name = "PathStraight"
+cull_mode = 2
+albedo_color = Color(0.6156863, 0.42745098, 0.2784314, 1)
+albedo_texture = ExtResource("1_a4f0e")
+roughness = 0.5

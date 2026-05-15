@@ -1,3 +1,4 @@
 # don't save unwanted textures, they get regenerated automagically, its just useless fluff.
+*.unwrap_cache
 *.webp
 *.webp.import
