@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bcycjf0mw04ck"
-path="res://.godot/imported/Tulip1.glb-944d504b49efc6bb6888b7681a2c9d68.scn"
+uid="uid://b6503gllfxvdk"
+path="res://.godot/imported/Vines.glb-cd347c7d84ea8a43c982a32e00b259ba.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/Props/Tulip1.glb"
-dest_files=["res://.godot/imported/Tulip1.glb-944d504b49efc6bb6888b7681a2c9d68.scn"]
+source_file="res://Assets/Env/Models/Props/Vines.glb"
+dest_files=["res://.godot/imported/Vines.glb-cd347c7d84ea8a43c982a32e00b259ba.scn"]
 
 [params]
 
@@ -34,9 +34,9 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-materials/extract=1
+materials/extract=0
 materials/extract_format=0
-materials/extract_path="res://Assets/Env/Materials/"
+materials/extract_path=""
 _subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1

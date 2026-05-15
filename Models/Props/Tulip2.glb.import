@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bcycjf0mw04ck"
-path="res://.godot/imported/Tulip1.glb-944d504b49efc6bb6888b7681a2c9d68.scn"
+uid="uid://ootguftmsngc"
+path="res://.godot/imported/Tulip2.glb-3f3ccfaa7daced9e9b09353b31d66778.scn"
 
 [deps]
 
-source_file="res://Assets/Env/Models/Props/Tulip1.glb"
-dest_files=["res://.godot/imported/Tulip1.glb-944d504b49efc6bb6888b7681a2c9d68.scn"]
+source_file="res://Assets/Env/Models/Props/Tulip2.glb"
+dest_files=["res://.godot/imported/Tulip2.glb-3f3ccfaa7daced9e9b09353b31d66778.scn"]
 
 [params]
 
@@ -36,7 +36,7 @@ animation/import_rest_as_RESET=false
 import_script/path=""
 materials/extract=1
 materials/extract_format=0
-materials/extract_path="res://Assets/Env/Materials/"
+materials/extract_path="res://Assets/Env/Materials"
 _subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
