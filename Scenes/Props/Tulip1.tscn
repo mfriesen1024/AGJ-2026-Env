@@ -10,7 +10,7 @@ gravity = Vector3(0, -0.1, 0)
 
 [sub_resource type="BoxMesh" id="BoxMesh_v0g3w"]
 material = ExtResource("2_v0g3w")
-size = Vector3(0.01, 0.01, 0.01)
+size = Vector3(0.025, 0.025, 0.025)
 
 [node name="Tulip1" unique_id=1003162807 instance=ExtResource("1_bg6et")]
 
@@ -32,6 +32,10 @@ omni_shadow_mode = 0
 layers = 2
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Petals" index="0" unique_id=791430408]
+layers = 2
+visibility_range_end = 10.0
+visibility_range_end_margin = 5.0
+visibility_range_fade_mode = 1
 amount = 6
 lifetime = 2.0
 process_material = SubResource("ParticleProcessMaterial_bg6et")
