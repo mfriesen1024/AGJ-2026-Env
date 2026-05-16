@@ -38,6 +38,38 @@ materials/extract=1
 materials/extract_format=0
 materials/extract_path="res://Assets/Env/Materials/"
 _subresources={
+"materials": {
+"Grass": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Env/Materials/Grass.tres",
+"use_external/path": "uid://bejuuhbibvgfo"
+},
+"PathEnd": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Env/Materials/PathEnd.tres",
+"use_external/path": "uid://saabwp54gfxq"
+}
+},
+"meshes": {
+"PathEnd_PathEnd": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"PathEnd_PathEndGrass": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+}
+},
 "nodes": {
 "PATH:PathEnd": {
 "generate/physics": true,

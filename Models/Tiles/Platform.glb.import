@@ -38,6 +38,52 @@ materials/extract=1
 materials/extract_format=0
 materials/extract_path="res://Assets/Env/Materials"
 _subresources={
+"materials": {
+"MagicCircle": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Env/Materials/MagicCircle.tres",
+"use_external/path": "uid://bu6878bu1otqe"
+},
+"MagicGlow": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Env/Materials/MagicGlow.tres",
+"use_external/path": "uid://b7ue367ii8pdr"
+},
+"Rock": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Env/Materials/Rock.tres",
+"use_external/path": "uid://ck36ka0i6t2l7"
+}
+},
+"meshes": {
+"Platform_MagicCircle": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"Platform_MagicProjector": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"Platform_PlatformRock": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+}
+},
 "nodes": {
 "PATH:Platform": {
 "generate/physics": true,
