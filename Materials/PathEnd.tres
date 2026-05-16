@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://saabwp54gfxq"]
+
+[ext_resource type="Texture2D" uid="uid://b1no0ea5abkm1" path="res://Assets/Env/Models/Tiles/PathEnd_PathEndMask.webp" id="1_no2k7"]
+
+[resource]
+resource_name = "PathEnd"
+cull_mode = 2
+albedo_color = Color(0.6156863, 0.42745098, 0.2784314, 1)
+albedo_texture = ExtResource("1_no2k7")
+roughness = 0.5
