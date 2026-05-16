@@ -1,14 +1,22 @@
 [gd_scene format=4 uid="uid://cwdg344s66e15"]
 
-[ext_resource type="Texture2D" uid="uid://b0stbm5u1xn28" path="res://Assets/Env/Models/Props/Grass_LeavesTex.webp" id="1_5f6bj"]
+[ext_resource type="Texture2D" uid="uid://dcruvc5txpcc6" path="res://Assets/Env/Models/Props/Grass_LeavesTex.webp" id="1_5f6bj"]
 
-[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_08wga"]
+[sub_resource type="Curve" id="Curve_icfmg"]
+_data = [Vector2(1e-05, 0), 0.0, 0.0, 0, 0, Vector2(0.10135135, 1), 0.0, 0.0, 0, 0, Vector2(0.5, 1), 0.0, 0.0, 0, 0, Vector2(0.8040541, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 5
+
+[sub_resource type="CurveTexture" id="CurveTexture_cuc7t"]
+curve = SubResource("Curve_icfmg")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_5f6bj"]
 emission_shape_scale = Vector3(1, 0.001, 1)
 emission_shape = 3
-emission_box_extents = Vector3(0.5, 0.5, 0.5)
+emission_box_extents = Vector3(0.4, 1, 0.4)
 gravity = Vector3(0, 0, 0)
 scale_min = 0.5
 scale_max = 0.5
+scale_curve = SubResource("CurveTexture_cuc7t")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hssgl"]
 resource_name = "PlantLeaves"
@@ -56,8 +64,8 @@ shadow_mesh = SubResource("ArrayMesh_gncew")
 visibility_range_end = 20.0
 visibility_range_end_margin = 5.0
 visibility_range_fade_mode = 1
-amount = 16
-lifetime = 3600.0
-explosiveness = 1.0
-process_material = SubResource("ParticleProcessMaterial_08wga")
+amount = 12
+lifetime = 600.0
+preprocess = 180.0
+process_material = SubResource("ParticleProcessMaterial_5f6bj")
 draw_pass_1 = SubResource("ArrayMesh_456ei")
