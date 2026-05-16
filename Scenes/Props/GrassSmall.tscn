@@ -1,0 +1,60 @@
+[gd_scene format=4 uid="uid://cwdg344s66e15"]
+
+[ext_resource type="Texture2D" uid="uid://b0stbm5u1xn28" path="res://Assets/Env/Models/Props/Grass_LeavesTex.webp" id="1_5f6bj"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_08wga"]
+emission_shape_scale = Vector3(1, 0.001, 1)
+emission_shape = 3
+emission_box_extents = Vector3(0.5, 0.5, 0.5)
+gravity = Vector3(0, 0, 0)
+scale_min = 0.5
+scale_max = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hssgl"]
+resource_name = "PlantLeaves"
+cull_mode = 2
+albedo_texture = ExtResource("1_5f6bj")
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gncew"]
+_surfaces = [{
+"aabb": AABB(-0.08660254, 0, -0.11666669, 0.17320508, 0.5, 0.25),
+"format": 34896613377,
+"index_count": 84,
+"index_data": PackedByteArray("AAAPAAIAAgAAAAAAAgACAAAAAAABAA8AAQAGAA8AAQAHAAYABQAPAAYABQADAA8AAwACAA8ACAAFAAYAAwAEAAIAAgAEAAIAAgAEAAQACAAGABAABwAQAAYACwAIABAABwAKABAACwAQABEACgARABAACgANABEADAALABEADQAJABEADAARAAkACQAMAAwACQAMAAkADQAOAAkACQAOAA4ACQAJAA4A"),
+"lods": [0.028493725, PackedByteArray("AAABAAIAAwAEAAIABQADAAIAAQAGAAIABQACAAYAAQAHAAYACAAFAAYABwAJAAYACAAGAAkABwAKAAkACwAIAAkADAALAAkACgANAAkADQAOAAkA")],
+"name": "PlantLeaves",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 18,
+"vertex_data": PackedByteArray("/4//////AABIqs/s3MQAAP9//////wAAtlXP7NzEAAD/b/////8AAN068sT/hwAA/3/KuguXAAAhxfLE/4cAABYiUIxdTwAA/38AAJkZAADo3VCMXU8AAM0Nc0iAIAAAAAAAAAAAAAAx8nNIgCAAAP//AAAAAAAA/38m5sXMAAD/fyeCE2QAAP9/ykHZOAAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_456ei"]
+resource_name = "Grass_Leaves"
+_surfaces = [{
+"aabb": AABB(-0.08660254, 0, -0.11666669, 0.17320508, 0.5, 0.25),
+"attribute_data": PackedByteArray("awMAAKkYSCcAAGABMBaeWFwrR1oAAPvwYzGjmyUqos2NHv//jR7//yUqos0AAPvwYzGjmzAWnlhcK0daAABgAakYSCdrAwAADwyvJ6kYSCcwFp5YDwyvJ1wrR1rBFjaVYzGjmzoMW8PBFjaVJSqizToMW8M6DFvDJSqizcEWNpU6DFvDYzGjm8EWNpVcK0daDwyvJzAWnlipGEgnDwyvJwAA+/CNHv//jR7//wAA+/CNHv//jR7//wAAYAFrAwAAawMAAAAAYAFrAwAAawMAAA=="),
+"format": 34896613399,
+"index_count": 84,
+"index_data": PackedByteArray("AAASAAIAAAABABIAEwAUABUAEwAWABQABAAXAAMABAAYABcABgAZABoABgAbABkABwAFABwABwAIAAUACQAdAAsACQAKAB0AHgAfACAAHgAMAB8AIQANACIAIQAOAA0AIwAkACUAIwAmACQAEAAPACcAEAARAA8AKAApACoAKAArACkAKAAsACsAKAAtACwALgAvADAALgAxAC8ALgAyADEALgAzADIA"),
+"lods": [0.028493725, PackedByteArray("AAABAAIAAQADAAIAAQAEAAMABAAFAAMABAAGAAUABgAHAAUABwAIAAUACQAKAAsACgAMAAsADAANAAsADAAOAA0ADgAPAA0ADgAQAA8AEAARAA8A")],
+"material": SubResource("StandardMaterial3D_hssgl"),
+"name": "PlantLeaves",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 52,
+"vertex_data": PackedByteArray("/4//////cKRIqs/s3MSPpf9//////5ik/3/KuguX9JshxfLE/4cknP9/AACZGYmX6N1QjF1PApsx8nNIgCC6l///AAAAAFOXAAAAAAAA5RHNDXNIgCDOEv9/AACZGWIRFiJQjF1PWRP/f8q6C5cyD9068sT/h9wO/3//////5QC2Vc/s3MR7B/9v/////wEC/38m5sXMSaVIqs/s3MSSn/9/yroLl+uf/38m5sXMWZ8hxfLE/4cSoP9/J4ITZF6c6N1QjF1PhJz/f8pB2TjLmv9/J4ITZDybMfJzSIAgnZr/f8pB2Tj7l/9/ykHZOE8SzQ1zSIAggxL/fyeCE2T0Ev9/ykHZOCMSFiJQjF1Pqg//fyeCE2T0D9068sT/h6AN/38m5sXM0Az/f8q6C5f0DbZVz+zcxFcM/38m5sXMdwj/fwAAmRn/v///AAAAAP+///8AAAAA/7//fwAAmRn/vwAAAAAAAP+/AAAAAAAA/7//f///////v/+P//////+//4///////7//f///////v/9v//////+//2///////7/wK/hU/hzHThcz01QjJY8yriRkMu8gQyT+H84qnyAkJEghZSTO8RTzoPE38+fxAfM+7SfyFuoI8Czq8+9u3oXvf9xd8ktuRF+kHoJPqyWSOpokMDpkJtQ6JyQHOickMTLRIxEyWyDzKqAfqSqpIBIrOiD9I7nxJPNv7f3xVe0T8oTt6vH36SXw5Ok38FnlP++V5QDvQeVZ77fl2+403M3y////f////3////9/////f////3////9/////f////3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_gncew")
+
+[node name="GrassSmall" type="Node3D" unique_id=130948806]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=514304477]
+amount = 16
+lifetime = 3600.0
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_08wga")
+draw_pass_1 = SubResource("ArrayMesh_456ei")
