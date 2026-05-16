@@ -53,7 +53,10 @@ shadow_mesh = SubResource("ArrayMesh_gncew")
 [node name="GrassLarge" type="Node3D" unique_id=130948806]
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=514304477]
-amount = 64
+visibility_range_end = 25.0
+visibility_range_end_margin = 5.0
+visibility_range_fade_mode = 1
+amount = 48
 lifetime = 3600.0
 explosiveness = 1.0
 process_material = SubResource("ParticleProcessMaterial_08wga")
