@@ -14,7 +14,7 @@ size = Vector3(0.025, 0.025, 0.025)
 
 [node name="Tulip2" unique_id=1003162807 instance=ExtResource("1_syyrk")]
 
-[node name="Stem" parent="." index="1" unique_id=461227609]
+[node name="Stem" parent="." index="1" unique_id=1171139848]
 layers = 2
 
 [node name="OmniLight3D" type="OmniLight3D" parent="." index="2" unique_id=1047100832]
@@ -28,13 +28,13 @@ shadow_caster_mask = 4294967293
 omni_range = 10.0
 omni_shadow_mode = 0
 
-[node name="Petals" parent="." index="3" unique_id=381708957]
+[node name="Petals" parent="." index="3" unique_id=1062816096]
 layers = 2
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Petals" index="0" unique_id=791430408]
 layers = 2
-visibility_range_end = 10.0
-visibility_range_end_margin = 5.0
+visibility_range_end = 50.0
+visibility_range_end_margin = 10.0
 visibility_range_fade_mode = 1
 amount = 6
 lifetime = 2.0
