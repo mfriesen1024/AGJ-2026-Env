@@ -29,7 +29,6 @@ layers = 2
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5835782, 0)
 light_color = Color(0.3784, 0.39512, 0.88, 1)
 light_bake_mode = 1
-light_cull_mask = 4294967293
 shadow_enabled = true
 shadow_caster_mask = 4294967293
 omni_range = 30.0
