@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://chnsyvde2loun"]
+
+[ext_resource type="PackedScene" uid="uid://my0y5mx5a4ym" path="res://Assets/Env/Models/Props/Crystals1.glb" id="1_v2n0k"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_55mvl"]
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector3(0, -0.1, 0)
+
+[node name="Crystals1" unique_id=1887905488 instance=ExtResource("1_v2n0k")]
+
+[node name="CrystalPiece" parent="." index="0" unique_id=218014045]
+transform = Transform3D(0.2382437, -0.16160654, 0.084399454, 0.14256702, 0.25169975, 0.07951033, -0.113642365, -0.023034185, 0.27668548, 0, 0, 0)
+layers = 2
+
+[node name="CrystalPiece_001" parent="." index="1" unique_id=276841516]
+transform = Transform3D(0.2552531, 0.0024767653, 0.15760621, 0.04722526, 0.28498212, -0.080962725, -0.15038493, 0.09369661, 0.24208535, 0, 0, 0)
+layers = 2
+
+[node name="CrystalPiece_002" parent="." index="2" unique_id=1499753927]
+transform = Transform3D(0.16973567, 0.15233281, 0.1948962, -0.12395081, 0.25692752, -0.09286797, -0.21407011, -0.02798179, 0.2083051, 0, 0, 0)
+layers = 2
+
+[node name="CrystalPiece_003" parent="." index="3" unique_id=521301236]
+transform = Transform3D(0.24623026, 0.0022991002, 0.1713633, -0.13565685, 0.18592498, 0.19242953, -0.104727685, -0.23542859, 0.15364082, -0.22237366, 0, -0.15086101)
+layers = 2
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="4" unique_id=1465224507]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5835782, 0)
+light_color = Color(0.3784, 0.39512, 0.88, 1)
+light_bake_mode = 1
+light_cull_mask = 4294967293
+shadow_enabled = true
+shadow_caster_mask = 4294967293
+omni_range = 30.0
+omni_attenuation = 0.8
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." index="5" unique_id=1943620078]
+layers = 2
+visibility_range_end = 50.0
+visibility_range_end_margin = 10.0
+visibility_range_fade_mode = 1
+amount = 6
+lifetime = 2.0
+process_material = SubResource("ParticleProcessMaterial_55mvl")
