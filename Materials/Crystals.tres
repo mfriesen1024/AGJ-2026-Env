@@ -4,8 +4,9 @@
 resource_name = "Crystals"
 transparency = 4
 cull_mode = 2
-albedo_color = Color(0.23139687, 0.251636, 0.9063355, 0.6923077)
+albedo_color = Color(0.2366, 0.25904667, 0.91, 0.6862745)
 metallic = 1.0
 roughness = 0.5
 emission_enabled = true
 emission = Color(0.15955536, 0.17471652, 0.6651877, 1)
+emission_energy_multiplier = 0.2
