@@ -10,3 +10,4 @@ roughness = 0.5
 emission_enabled = true
 emission = Color(0.15955536, 0.17471652, 0.6651877, 1)
 emission_energy_multiplier = 0.2
+ao_enabled = true
